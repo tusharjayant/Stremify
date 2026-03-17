@@ -1,3 +1,4 @@
+Markdown
 # 🎬 Stremify - Video Management Backend
 
 A powerful, scalable, and fully functional backend API for a video hosting and streaming platform (inspired by YouTube).
@@ -22,3 +23,33 @@ A powerful, scalable, and fully functional backend API for a video hosting and s
 **1. Clone the repository:**
 ```bash
 git clone [https://github.com/tusharjayant/Stremify.git](https://github.com/tusharjayant/Stremify.git)
+2. Install dependencies:
+
+Bash
+npm install
+3. Environment Variables:
+Create a .env file in the root directory and add your secrets:
+
+Code snippet
+PORT=8000
+MONGODB_URI=<your-mongodb-connection-string>
+CORS_ORIGIN=*
+ACCESS_TOKEN_SECRET=<your-access-token-secret>
+ACCESS_TOKEN_EXPIRY=1d
+REFRESH_TOKEN_SECRET=<your-refresh-token-secret>
+REFRESH_TOKEN_EXPIRY=10d
+CLOUDINARY_CLOUD_NAME=<your-cloudinary-name>
+CLOUDINARY_API_KEY=<your-cloudinary-api-key>
+CLOUDINARY_API_SECRET=<your-cloudinary-api-secret>
+4. Start the development server:
+
+Bash
+npm run dev
+Developed with 💻 by Tushar Jayant
+
+
+### 🔥 GitHub pe update karne ke 3 simple steps:
+File save karne ke baad terminal mein bas ye chala de:
+1. `git add README.md`
+2. `git commit -m "docs: added killer README"`
+3. `git push`
